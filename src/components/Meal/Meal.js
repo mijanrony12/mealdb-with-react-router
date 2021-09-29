@@ -3,7 +3,6 @@ import { Button, Card } from 'react-bootstrap';
 import { Link, useHistory } from 'react-router-dom';
 
 const Meal = (props) => {
-    console.log(props.meal)
     const history =useHistory()
     const {strMealThumb,strMeal,strInstructions,idMeal}=props.meal
 
