@@ -23,7 +23,7 @@ const Meal = (props) => {
                                             { strInstructions.slice(0,100)}
                              </Card.Text>
                                  <Link to={`/rastruant/${idMeal}`}>
-                                      <Button variant="primary">Go Details</Button>
+                                      <Button className="mb-3" variant="primary">Go Details</Button>
                                 </Link>
                                  <br />
                                      <Button onClick={handleClick} variant="primary">visit Details</Button>
