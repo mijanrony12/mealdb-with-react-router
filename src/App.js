@@ -7,6 +7,7 @@ import Rastruant from './components/Rastruant/Rastruant';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import NaBar from './components/NavBar/NaBar';
+import MealDetail from './components/MealDetails/MealDetail';
 function App() {
   return (
     <div>
@@ -24,6 +25,9 @@ function App() {
                              </Route>
                              <Route exact path="/rastruant">
                                        <Rastruant></Rastruant>
+                             </Route>
+                             <Route exact path="/rastruant/:idmeal">
+                                       <MealDetail></MealDetail>
                              </Route>
                              <Route exact path="/contact">
                                        <Contact></Contact>

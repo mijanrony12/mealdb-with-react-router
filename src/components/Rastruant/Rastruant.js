@@ -15,11 +15,13 @@ const Rastruant = () => {
     },[])
     return (
         <div>
-            <div className="row">
+            <div className="container">
+                   <div className="row mb-3">
                            {
                                 meals.map(meal => <Meal meal={meal}></Meal>)
                            }
                 </div>
+            </div>
         </div>
     );
 };
