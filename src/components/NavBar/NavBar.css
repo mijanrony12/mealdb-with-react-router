@@ -1,0 +1,25 @@
+.menu {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.menu h1 {
+  color: #fff;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 8px 20px;
+}
+.router-menu {
+  color: #000;
+}
